@@ -1,0 +1,1 @@
+{"op":"tensor","params_info":{"values":{},"shape":{"structure":["List","String"],"dtype":["R"],"len":[1],"enumv":["undefined"]},"dtype":{"structure":["String"],"enumv":["undefined"]}},"constraints":{"values":["values_type=TensorLike|WebGLData|WebGPUData"],"shape":["if(shape!=undefined) then shape_length=inferredShape_length"],"dtype":["dtype_type=DataType"]}}

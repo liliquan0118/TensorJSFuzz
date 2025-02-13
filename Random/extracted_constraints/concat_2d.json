@@ -1,0 +1,1 @@
+{"op":"concat2d","params_info":{"tensors":{"structure":["Tensor"],"rank":["2"],"dtype":["number"]},"axis":{"structure":["Int"],"dtype":["Int"]}},"constraints":{"tensors":["all_tensors_rank=2"],"axis":["axis=[0,1]"]}}

@@ -1,0 +1,1 @@
+{"op":"fromPixels","params_info":{"pixels":{},"numChannels":{"dtype":["Int"],"default":"3"}},"constraints":{"pixels":["pixels!=null","pixels_type=['PixelData', 'ImageData', 'HTMLImageElement', 'HTMLCanvasElement', 'HTMLVideoElement', 'ImageBitmap']"],"numChannels":["numChannels<=4"]}}

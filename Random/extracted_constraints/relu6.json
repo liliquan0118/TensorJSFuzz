@@ -1,0 +1,1 @@
+{"op":"relu6","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"x":["x_dtype=bool then output_dtype=int32 else output_dtype=x_dtype"]}}

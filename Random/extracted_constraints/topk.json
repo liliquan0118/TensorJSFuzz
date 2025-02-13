@@ -1,0 +1,1 @@
+{"op":"topk","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"k":{"dtype":["Int"],"default":"1"},"sorted":{"structure":["bool"],"dtype":["bool"],"default":"true"}},"constraints":{"x":["x_rank>0"],"k":["k>=0","k<=x_shape[x_shape.length-1]"]}}

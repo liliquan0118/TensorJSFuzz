@@ -1,0 +1,1 @@
+{"op":"zeros","params_info":{"shape":{"structure":["List"],"dtype":["R"],"len":[1]},"dtype":{"default":"float32"}},"constraints":{"shape":["shape_elements>=0"],"dtype":["if(dtype='complex64') then dtype_elements=['float32'] else dtype_elements=['float32','int32','bool']"]}}

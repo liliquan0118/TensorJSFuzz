@@ -1,0 +1,1 @@
+{"op":"addN","params_info":{"tensors":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"tensors":["tensors_length>=1","all_tensors_dtype_same","all_tensors_shape_same"]}}

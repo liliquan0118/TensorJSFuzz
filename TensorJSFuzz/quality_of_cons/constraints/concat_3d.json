@@ -1,0 +1,1 @@
+{"op":"concat3d","params_info":{"tensors":{"structure":["Tensor"],"rank":["3"],"dtype":["number"]},"axis":{"structure":["Int"],"dtype":["Int"]}},"constraints":{"tensors":["all_tensors_rank=3"],"axis":["axis=[0,1,2]"]}}

@@ -1,0 +1,1 @@
+{"op":"scalar","params_info":{"value":{"structure":["Int"],"dtype":["Int"]},"dtype":{"structure":["String"],"enumv":["undefined"]}},"constraints":{"value":["if(dtype='complex64') then value_type=primitive else value_type=Uint8Array","if(dtype='string') then value_type=Uint8Array"],"dtype":["dtype_type=DataType"]}}

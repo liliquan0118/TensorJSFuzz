@@ -1,0 +1,1 @@
+{"op":"slice2d","params_info":{"x":{"structure":["Tensor"],"rank":["2"],"dtype":["number"]},"begin":{"structure":["List"],"dtype":["number"],"len":[2]},"size":{"structure":["List"],"dtype":["number"],"len":[2]}},"constraints":{"x":["x_rank=2"],"begin":["begin_length=2"],"size":["size_length=2"]}}

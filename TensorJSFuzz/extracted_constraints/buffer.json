@@ -1,0 +1,1 @@
+{"op":"buffer","params_info":{"shape":{"structure":["List"],"dtype":["Int"],"len":[1]},"dtype":{"default":"float32 as D"},"values":{"structure":["List","String"],"dtype":["float32"],"len":[1],"enumv":["undefined"]}},"constraints":{"shape":["shape_values>=0"],"dtype":["dtype=[float32,int32,bool,string]"],"values":["if(values!=undefined) then values_type=dtype"]}}

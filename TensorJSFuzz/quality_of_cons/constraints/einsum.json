@@ -1,0 +1,1 @@
+{"op":"einsum","params_info":{"equation":{},"tensors":{"structure":["List"],"len":[1]}},"constraints":{"equation":["equation_type=string"],"tensors":["tensors_length<=2","tensors_elements=tensor","if(equation contains 'ii->') then tensors_length!=2","if(equation contains '...') then tensors_length!=2"]}}

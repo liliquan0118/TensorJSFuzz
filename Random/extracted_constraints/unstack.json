@@ -1,0 +1,1 @@
+{"op":"unstack","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"axis":{"dtype":["Int"],"default":"0"}},"constraints":{"x":["x_rank>0"],"axis":["axis>=-x_rank","axis<x_rank"]}}

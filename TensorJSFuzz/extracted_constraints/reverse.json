@@ -1,0 +1,1 @@
+{"op":"reverse","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"axis":{"structure":["Int","List","String"],"dtype":["Int"],"len":[1],"enumv":["undefined"]}},"constraints":{"x":["x_rank=[1,2,3,4]"],"axis":["axis>=-x_rank","axis<x_rank"]}}

@@ -1,0 +1,1 @@
+{"op":"setdiff1dAsync","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"y":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"x":["x_dtype=y_dtype","x_rank=1"],"y":["y_rank=1"]}}

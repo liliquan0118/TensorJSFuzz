@@ -1,0 +1,1 @@
+{"op":"reverse3d","params_info":{"x":{"structure":["Tensor"],"rank":["3"],"dtype":["number"]},"axis":{"structure":["Int","List","String"],"dtype":["Int"],"len":[1],"enumv":["undefined"]}},"constraints":{"x":["x_rank=3"]}}

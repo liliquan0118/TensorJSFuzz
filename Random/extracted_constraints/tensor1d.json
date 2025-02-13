@@ -1,0 +1,1 @@
+{"op":"tensor1d","params_info":{"values":{},"dtype":{"structure":["String"],"enumv":["undefined"]}},"constraints":{"values":["values_type=Array|TypedArray","values_shape=[1]"],"dtype":["dtype_type=string"]}}

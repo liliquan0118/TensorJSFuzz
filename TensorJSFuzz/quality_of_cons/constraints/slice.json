@@ -1,0 +1,1 @@
+{"op":"slice","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"begin":{"structure":["Int","List"],"dtype":["Int"],"len":[1]},"size":{"structure":["Int","List","String"],"dtype":["Int"],"len":[1],"enumv":["undefined"]}},"constraints":{"x":["x_rank>0"],"begin":["begin_type=integer or array"],"size":["size_type=integer or array"]}}

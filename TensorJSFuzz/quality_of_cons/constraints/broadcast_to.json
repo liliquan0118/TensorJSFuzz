@@ -1,0 +1,1 @@
+{"op":"broadcastTo","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"shape":{"structure":["List"],"dtype":["Int"],"len":[1]}},"constraints":{"x":["x_rank<=shape_length"],"shape":["shape_length>=x_rank","shape=x_shape","shape_elements>=0","if(shape_length>x_rank) then shape_values=1"]}}

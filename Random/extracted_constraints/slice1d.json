@@ -1,0 +1,1 @@
+{"op":"slice1d","params_info":{"x":{"structure":["Tensor"],"rank":["1"],"dtype":["number"]},"begin":{"structure":["Int"],"dtype":["Int"]},"size":{"structure":["Int"],"dtype":["Int"]}},"constraints":{"x":["x_rank=1"],"begin":["begin>=0"],"size":["size>=0","begin+size<=x_shape[0]"]}}

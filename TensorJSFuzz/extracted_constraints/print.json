@@ -1,0 +1,1 @@
+{"op":"print","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"verbose":{"structure":["bool"],"dtype":["bool"],"default":"false"}},"constraints":{"x":["x_type=Tensor"],"verbose":["verbose_type=boolean"]}}

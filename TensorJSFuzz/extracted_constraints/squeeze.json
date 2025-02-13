@@ -1,0 +1,1 @@
+{"op":"squeeze","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"axis":{"structure":["List","String"],"len":[1],"enumv":["undefined"]}},"constraints":{"x":["x_type=string_or_numeric"],"axis":["if(axis!=undefined) then x_shape[axis]=1"]}}

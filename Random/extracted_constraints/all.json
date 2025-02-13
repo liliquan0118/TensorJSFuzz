@@ -1,0 +1,1 @@
+{"op":"all","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"axis":{"structure":["Int","List"],"dtype":["Int"],"len":[1],"default":"null"},"keepDims":{"structure":["bool"],"dtype":["bool"],"default":"false"}},"constraints":{"x":["x_dtype=bool"],"axis":["axis_type=integer"],"keepDims":["keepDims_type=boolean"]}}

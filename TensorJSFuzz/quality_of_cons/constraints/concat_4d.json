@@ -1,0 +1,1 @@
+{"op":"concat4d","params_info":{"tensors":{"structure":["Tensor"],"rank":["4"],"dtype":["number"]},"axis":{"structure":["Int"],"dtype":["Int"]}},"constraints":{"tensors":["tensors_elements_type=Tensor4D"],"axis":["axis_type=integer"]}}

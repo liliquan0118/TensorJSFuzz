@@ -1,0 +1,1 @@
+{"op":"logicalAnd","params_info":{"a":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"b":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"a":["a_dtype=bool"],"b":["b_dtype=bool","a_shape=b_shape or can_broadcast(a_shape, b_shape)"]}}

@@ -1,0 +1,1 @@
+{"op":"transpose","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"perm":{"structure":["List","String"],"len":[1],"enumv":["undefined"]},"conjugate":{"structure":["String"],"enumv":["undefined"]}},"constraints":{"x":["x_rank=perm_length","if(x_rank<=1) then x=x_clone"],"perm":["perm_elements=[0,x_rank-1]"]}}

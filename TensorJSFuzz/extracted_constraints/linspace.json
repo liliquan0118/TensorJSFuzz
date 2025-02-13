@@ -1,0 +1,1 @@
+{"op":"linspace","params_info":{"start":{"structure":["Int"],"dtype":["Int"]},"stop":{"structure":["Int"],"dtype":["Int"]},"num":{"structure":["Int"],"dtype":["Int"]}},"constraints":{"start":[],"stop":[],"num":["num>0"]}}

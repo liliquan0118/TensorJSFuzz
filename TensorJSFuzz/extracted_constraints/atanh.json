@@ -1,0 +1,1 @@
+{"op":"atanh","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"x":["x_value=[-1,1]"]}}

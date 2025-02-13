@@ -1,0 +1,1 @@
+{"op":"rand","params_info":{"shape":{"structure":["List"],"dtype":["R"],"len":[1]},"randFunction":{},"dtype":{"structure":["String"],"enumv":["undefined"]}},"constraints":{"shape":["shape_elements>=0"],"randFunction":["randFunction_type=function"],"dtype":["dtype=['float32','int32','bool']"]}}

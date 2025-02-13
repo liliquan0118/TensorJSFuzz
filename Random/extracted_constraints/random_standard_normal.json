@@ -1,0 +1,1 @@
+{"op":"randomStandardNormal","params_info":{"shape":{"structure":["List"],"dtype":["R"],"len":[1]},"dtype":{"structure":["String"],"enumv":["float32","int32","undefined"]},"seed":{"structure":["Int","String"],"dtype":["Int"],"enumv":["undefined"]}},"constraints":{"shape":["shape_type=array"],"dtype":["dtype=['float32','int32']"]}}

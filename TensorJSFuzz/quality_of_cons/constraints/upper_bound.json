@@ -1,0 +1,1 @@
+{"op":"upperBound","params_info":{"sortedSequence":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"values":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"sortedSequence":["sortedSequence_type=Tensor or TensorLike"],"values":["values_type=Tensor or TensorLike"]}}

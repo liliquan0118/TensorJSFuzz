@@ -1,0 +1,1 @@
+{"op":"greaterEqual","params_info":{"a":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"b":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"a":["a_dtype=b_dtype"],"b":["b_dtype=a_dtype","a_shape=b_shape"]}}

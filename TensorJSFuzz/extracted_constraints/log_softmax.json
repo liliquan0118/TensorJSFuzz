@@ -1,0 +1,1 @@
+{"op":"logSoftmax","params_info":{"logits":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"axis":{"default":"-1"}},"constraints":{"logits":["logits_rank>0","if(axis!=-1) then logits_rank-1=axis"]}}

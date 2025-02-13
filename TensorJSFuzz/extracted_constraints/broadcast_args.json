@@ -1,0 +1,1 @@
+{"op":"broadcastArgs","params_info":{"s0":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["Int"]},"s1":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["Int"]}},"constraints":{"s0":["s0_rank=1"],"s1":["s1_rank=1","s1_shape=s0_shape","s1=s0"]}}

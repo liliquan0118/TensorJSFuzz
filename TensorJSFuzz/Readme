@@ -1,0 +1,9 @@
+This work is composed of three distinct stages. The initial stage involves constraint extraction, where GPTFJSFUZZ extracts two types of constraints from a DL operator's source code: (1) type information for each parameter, derived from the function signature's abstract syntax tree, and (2) dependency constraints, extracted from the function body using LLMs. The type information encompasses the structure, data type, rank, and enumerated values of each parameter, while dependency constraints pertain to the permissible range of parameter values and their interdependencies.
+The subsequent stage, input generation, builds upon these extracted constraints. Initially, GPTFJSFUZZ generates random inputs that align with the extracted type information, ensuring type consistency. These inputs are then refined and adjusted to meet the dependency constraints, a process that significantly enhances the likelihood of input validity.
+The final stage focuses on bug confirmation. GPTFJSFUZZ employs three test oracles to identify various bug types, including crash, memory-related, and logic bugs. Specifically, logic bugs are detected through differential testing across different TensorFlow.js backends. Additionally, for memory-related bug detection, particularly in the WebAssembly (Wasm) backend, GPTFJSFUZZ utilizes AddressSanitizer.
+
+1. The extracted constraints using ChatGPT is stored in folder extracted_constraints.
+
+2. The code of extracting constraints, generating test cases and testing Tensorflow.js are is stored in folder sourcecode.
+
+3. The codes of checking the quality/number of extracted constraints are placed in the folder quality_of_cons.

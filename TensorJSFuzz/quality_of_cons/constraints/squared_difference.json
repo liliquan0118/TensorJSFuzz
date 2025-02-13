@@ -1,0 +1,1 @@
+{"op":"squaredDifference","params_info":{"a":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"b":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"a":["a_type=b_type"],"b":["b_type=a_type"]}}

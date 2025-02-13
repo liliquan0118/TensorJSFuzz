@@ -1,0 +1,1 @@
+{"op":"tensor4d","params_info":{"values":{},"shape":{"structure":["List","String"],"dtype":["number"],"len":[4],"enumv":["undefined"]},"dtype":{"structure":["String"],"enumv":["undefined"]}},"constraints":{"values":["values_not_null"],"shape":["if(shape!=null) then shape_length=4","if(inferredShape_length=1) then shape!=null"],"dtype":["dtype_type=DataType"]}}

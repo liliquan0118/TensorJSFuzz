@@ -1,0 +1,1 @@
+{"op":"dot","params_info":{"t1":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"t2":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"t1":["t1_rank=[1,2]"],"t2":["t2_rank=[1,2]","if(t1_rank=1) then t1_size=t2_size else t1_shape[1]=t2_shape[0]"]}}

@@ -1,0 +1,1 @@
+{"op":"bincount","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["Int"]},"weights":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["Int"]},"size":{"structure":["Int"],"dtype":["Int"]}},"constraints":{"x":["x_dtype=integer"],"weights":["weights_shape=x_shape"],"size":["size>=0"]}}

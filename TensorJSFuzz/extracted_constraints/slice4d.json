@@ -1,0 +1,1 @@
+{"op":"slice4d","params_info":{"x":{"structure":["Tensor"],"rank":["4"],"dtype":["number"]},"begin":{"structure":["List"],"dtype":["number"],"len":[4]},"size":{"structure":["List"],"dtype":["number"],"len":[4]}},"constraints":{"x":["x_rank=4"],"begin":["begin_length=4"],"size":["size_length=4"]}}

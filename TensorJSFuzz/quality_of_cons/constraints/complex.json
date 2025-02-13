@@ -1,0 +1,1 @@
+{"op":"complex","params_info":{"real":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"imag":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"real":["real_shape=imag_shape"],"imag":["imag_shape=real_shape"]}}

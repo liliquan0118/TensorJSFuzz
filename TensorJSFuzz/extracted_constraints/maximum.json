@@ -1,0 +1,1 @@
+{"op":"maximum","params_info":{"a":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"b":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"a":["a_dtype=b_dtype","if(a_dtype='bool') then a_dtype='int32'"],"b":["b_dtype=a_dtype","if(b_dtype='bool') then b_dtype='int32'"],"a_shape":["a_shape=b_shape"]}}

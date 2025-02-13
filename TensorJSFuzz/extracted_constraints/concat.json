@@ -1,0 +1,1 @@
+{"op":"concat","params_info":{"tensors":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"axis":{"dtype":["Int"],"default":"0"}},"constraints":{"tensors":["tensors_length>=1","all_tensors_dtype=complex64 or all_tensors_dtype!=complex64"]}}

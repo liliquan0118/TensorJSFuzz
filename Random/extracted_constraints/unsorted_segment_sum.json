@@ -1,0 +1,1 @@
+{"op":"unsortedSegmentSum","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"segmentIds":{"structure":["Tensor"],"rank":["1"],"dtype":["number"]},"numSegments":{"structure":["Int"],"dtype":["Int"]}},"constraints":{"x":["x_rank>=1"],"segmentIds":["segmentIds_dtype='int32'","segmentIds_rank=x_rank"],"numSegments":["numSegments_type=integer"]}}

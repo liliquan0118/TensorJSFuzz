@@ -1,0 +1,1 @@
+{"op":"concat1d","params_info":{"tensors":{"structure":["Tensor"],"rank":["1"],"dtype":["number"]}},"constraints":{"tensors":["all_elements_are_tensor1D_or_tensorLike"]}}

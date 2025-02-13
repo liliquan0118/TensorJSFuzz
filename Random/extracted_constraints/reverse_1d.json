@@ -1,0 +1,1 @@
+{"op":"reverse1d","params_info":{"x":{"structure":["Tensor"],"rank":["1"],"dtype":["number"]}},"constraints":{"x":["x_rank=1"]}}

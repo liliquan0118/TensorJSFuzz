@@ -1,0 +1,1 @@
+{"op":"cast","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"dtype":{"structure":["String"],"dtype":["String"],"enumv":["float32","int32","string"]}},"constraints":{"x":["x_dtype=string if dtype=string else x_dtype!=string"],"dtype":["dtype is a valid data type"]}}

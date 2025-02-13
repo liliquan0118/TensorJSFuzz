@@ -1,0 +1,1 @@
+{"op":"pad","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"paddings":{"structure":["List"],"dtype":["number"],"len":[2]},"constantValue":{"dtype":["Int"],"default":"0"}},"constraints":{"x":["x_rank>0"],"paddings":["paddings_length=x_rank","paddings_elements=integer_tuple"],"constantValue":["constantValue_type=integer"]}}

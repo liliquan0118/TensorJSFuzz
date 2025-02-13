@@ -1,0 +1,1 @@
+{"op":"ones","params_info":{"shape":{"structure":["List"],"dtype":["Int"],"len":[1]},"dtype":{"default":"float32"}},"constraints":{"shape":["shape_values>=0"]}}

@@ -1,0 +1,1 @@
+{"op":"fill","params_info":{"shape":{"structure":["List"],"dtype":["Int"],"len":[1]},"value":{"structure":["Int"],"dtype":["Int"]},"dtype":{"structure":["String"],"enumv":["undefined"]}},"constraints":{"shape":["shape_elements>=0"],"value":["if(dtype=undefined) then value_type=number else value_type=dtype"]}}

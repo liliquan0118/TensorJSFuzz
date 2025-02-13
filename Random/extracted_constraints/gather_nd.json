@@ -1,0 +1,1 @@
+{"op":"gatherND","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"indices":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["Int"]}},"constraints":{"x":["x_type=string_or_numeric"],"indices":["indices_type=int32","indices_shape[-1]<=x_rank"]}}

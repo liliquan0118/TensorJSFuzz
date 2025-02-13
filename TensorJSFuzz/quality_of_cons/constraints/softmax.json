@@ -1,0 +1,1 @@
+{"op":"softmax","params_info":{"logits":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"dim":{"default":"-1"}},"constraints":{"logits":["logits_rank>=1"],"dim":["if(dim!=-1) then dim=logits_rank-1"]}}

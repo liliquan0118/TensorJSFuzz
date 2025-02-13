@@ -1,0 +1,1 @@
+{"op":"imag","params_info":{"input":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]}},"constraints":{"input":["input_type=complex or real"]}}

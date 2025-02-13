@@ -1,0 +1,1 @@
+{"op":"meshgrid","params_info":{"x":{"structure":["Tensor","String"],"rank":["1","2","3","4"],"dtype":["number"],"enumv":["undefined"]},"y":{"structure":["Tensor","String"],"rank":["1","2","3","4"],"dtype":["number"],"enumv":["undefined"]},"{ indexing = 'xy' }":{"default":"{}"}},"constraints":{"x":["x_rank>=1"],"y":["y_rank>=1"],"indexing":["indexing=['xy','ij']"]}}

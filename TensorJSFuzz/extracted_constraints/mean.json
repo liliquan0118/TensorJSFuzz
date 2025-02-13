@@ -1,0 +1,1 @@
+{"op":"mean","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"axis":{"structure":["Int","List"],"dtype":["Int"],"len":[1],"default":"null"},"keepDims":{"structure":["bool"],"dtype":["bool"],"default":"false"}},"constraints":{"x":["x_rank>0"],"axis":["if(axis!=null) then axis<=x_rank"],"keepDims":["keepDims_type=boolean"]}}

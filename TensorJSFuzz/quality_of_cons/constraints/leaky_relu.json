@@ -1,0 +1,1 @@
+{"op":"leakyRelu","params_info":{"x":{"structure":["Tensor"],"rank":["1","2","3","4"],"dtype":["number"]},"alpha":{"default":"0.2"}},"constraints":{"x":["x_type=Tensor"],"alpha":["alpha>=0","alpha<=1","default=0.2"]}}
