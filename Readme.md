@@ -5,19 +5,19 @@ The final stage focuses on bug confirmation. TensorJSFuzz employs three test ora
 We have released the source code for **TensorJSFuzz** and **Baseline Random**. The source code for DocTer can be found at https://github.com/lin-tan/DocTer. The following steps are instructions of constraints extraction and fuzzing.
 
 **Step1: constraints extraction**
-    1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0
-    2.extract type information and dependency constraints by the command:
-                 cd         TensorJSFuzz
-                 node   get_cons.js
+    *1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0*
+    *2.extract type information and dependency constraints by the command:*
+                 `cd         TensorJSFuzz`
+                 `node   get_cons.js`
 **Step2: run fuzzer**
-    1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0
-    2.compile the Wasm backend of Tensorflow.js using AddressSanitizer:
-                  git   clone  git@github.com:tensorflow/tfjs.git
-                  cd   tfjs
-                  npm     install
+    *1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0`
+    *2.compile the Wasm backend of Tensorflow.js using AddressSanitizer:*
+                  `git   clone  git@github.com:tensorflow/tfjs.git
+                  `cd   tfjs`
+                  `npm     install`
                   add  "build": "bazel  build -c opt --copt=-fsanitize=address :tfjs-backend-wasm_pkg" to the tfjs-backend-wasm/package.json
-                  cd   tfjs-backend-wasm
-                  npm run build
+                  `cd   tfjs-backend-wasm`
+                  `npm run build`
     3.compile the CPU, WebGL and tesorflow backend of Tensorflow.js:
                cd    tfjs-backend-cpu
                npm run build
