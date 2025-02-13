@@ -6,34 +6,51 @@ We have released the source code for **TensorJSFuzz** and **Baseline Random**. T
 
 **Step1: constraints extraction**  
 
-    *1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0*  
+    1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0  
 
-    *2.extract type information and dependency constraints by the command:*
+    2.extract type information and dependency constraints by the command:
                  ```
                   cd         TensorJSFuzz
-                  node   get_cons.js  
+                  node   get_cons.js
+		```  
 
-**Step2: run fuzzer**
-    *1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0`
-    *2.compile the Wasm backend of Tensorflow.js using AddressSanitizer:*
-                  `git   clone  git@github.com:tensorflow/tfjs.git
-                  `cd   tfjs`
-                  `npm     install`
+**Step2: run fuzzer**  
+
+    1.download the source code of Tensorflow.js 4.1.0 from the link: https://github.com/tensorflow/tfjs/tree/dev_tfjs_4.1.0  
+
+    2.compile the Wasm backend of Tensorflow.js using AddressSanitizer:
+
+			```
+                  git   clone  git@github.com:tensorflow/tfjs.git
+                  cd   tfjs
+                  npm     install
                   add  "build": "bazel  build -c opt --copt=-fsanitize=address :tfjs-backend-wasm_pkg" to the tfjs-backend-wasm/package.json
-                  `cd   tfjs-backend-wasm`
-                  `npm run build`
+                  cd   tfjs-backend-wasm
+                  npm run build
+		```
+
     3.compile the CPU, WebGL and tesorflow backend of Tensorflow.js:
+
+```
                cd    tfjs-backend-cpu
                npm run build
                cd    tfjs-backend-webgl
                npm run build
                cd    tfjs-node
                npm run build
+```   
     4.run fuzzing:
+    
+```
                cd    TensorJSFuzz
                node     run_fuzzer.js
-    Then you can see the bugs/discrepancies of each operators in the  directory  TensorJSFuzz/workdir
+```   
+ Then you can see the bugs/discrepancies of each operators in the  directory  TensorJSFuzz/workdir
 
 **Step3: reproduce a bug**
+
     In the file diff_record, the first column is the path to the file which takes a record of the buggy inputs. To reproduce a bug, simply modify the variable filename to this buggy input and run reproduce_script.js:
+
+```
                         node         reproduce_script.js
+```
